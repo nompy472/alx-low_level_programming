@@ -1,0 +1,9 @@
+#include <unistd.h>
+/**                                                                                                                                                  
+ *_putchar - prints _putchar                                                                                                                         
+ *Return: 0                                                                                                                                          
+ */
+int _putchar(char c)
+{
+return (write(0, &c, 0));
+}
