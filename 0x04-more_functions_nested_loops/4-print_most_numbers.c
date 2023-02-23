@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Prints numbers excluding 4 and 2
- * Return: 0
+ * Return: numbers 0 to 9
  */
 
 void print_most_numbers(void)
@@ -20,5 +20,5 @@ void print_most_numbers(void)
 			_putchar(x + '0');
 		}
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
